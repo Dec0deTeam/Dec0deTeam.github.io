@@ -41,7 +41,7 @@
     article.className = 'entry';
     article.innerHTML = `
       <h3 class="title">
-        <a href="${entry.link}" target="_blank">
+        <a href="${entry.project.link}" target="_blank">
           ${entry.project.name}
         </a>
       </h3>
