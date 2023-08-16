@@ -1,0 +1,50 @@
+.body .main p {
+  font-size: 18px;
+  padding: 5px 0 20px;
+  text-align: center;
+}
+
+#feed {
+  border-top: 2px solid #8C8C8C;
+  border-left: 2px solid #8C8C8C;
+  border-right: 2px solid #8C8C8C;
+}
+#feed .entry {
+  border-bottom: 2px solid #8C8C8C;
+  padding: 10px;
+}
+#feed .entry .title {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+#feed .entry .message {
+  font-size: 15px;
+  font-weight: normal;
+  margin: 5px 0;
+  padding: 0;
+}
+
+#feed .entry .meta {
+  align-items: center;
+  color: #8C8C8C;
+  display: flex;
+  font-size: 13px;
+}
+
+#feed .entry .meta a {
+  color: #8C8C8C;
+  text-decoration: underline;
+}
+
+#feed .entry .meta .author {
+  align-items: center;
+  display: flex;
+  margin-right: 5px;
+}
+
+#feed .entry .meta .author img {
+  border-radius: 50%;
+  margin-right: 5px;
+  width: 20px;
+}
